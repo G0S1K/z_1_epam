@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- подключение header -->
+    <iframe src="blocks/header.html" class="iframe1"></iframe>
+    <!-- подключение menu -->
+    <iframe src="blocks/menu.html" class="iframe2"></iframe>
+
+    <!-- блок main -->
+    <main>
+        <div class="main_container">
+            <h1>Расписание на неделю:</h1>
+            <form action="#">
+                <label> <input type="radio" name="rgroup1" id="rb1" onchange="check()" checked> 1 стиль</label>
+                <label> <input type="radio" name="rgroup1" id="rb2" onchange="check()"> 2 стиль</label>
+                <label> <input type="radio" name="rgroup1" id="rb3" onchange="check()"> 3 стиль</label>
+            </form>
+            <div class="schedule_table"></div>
+        </div>
+    </main>
+
+    <!-- подключение footer -->
+    <iframe src="blocks/footer.html" class="iframe3"></iframe>
+
+    <!-- кнопка открывающая menu -->
+    <button class="floating-btn"></button>
+</body>
+</html>

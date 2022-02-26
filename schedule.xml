@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+    <day>
+        <name>Monday</name>
+        <flesson>PE</flesson>
+        <slesson>Math</slesson>
+        <thlesson>English</thlesson>
+    </day>
+    <day>
+        <name>Tuesday</name>
+        <flesson>PE</flesson>
+        <slesson>Math</slesson>
+        <thlesson>English</thlesson>
+    </day>
+    <day>
+        <name>Wednesday</name>
+        <flesson>PE</flesson>
+        <slesson>Math</slesson>
+        <thlesson>English</thlesson>
+    </day>
+    <day>
+        <name>Thursday</name>
+        <flesson>PE</flesson>
+        <slesson>Math</slesson>
+        <thlesson>English</thlesson>
+    </day>
+    <day>
+        <name>Friday</name>
+        <flesson>Russian</flesson>
+        <slesson>Math</slesson>
+        <thlesson>English</thlesson>
+    </day>
+</schedule>

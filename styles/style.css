@@ -1,0 +1,208 @@
+header { 
+    background: #d5690a;
+    color: azure;
+}
+
+.header_container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_logo {
+    margin: 25px;
+}  
+
+.header_logo :hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(73, 73, 73);
+    color: azure;
+}
+
+.footer_container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    visibility: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: 998;
+}
+
+.nav_list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.nav_list_item {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.nav_list_item:last-child {
+    margin-bottom: 0;
+}
+
+.nav_list_item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_list_item a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.menu.visible {
+    visibility: visible;
+    transform: translateX(-10px);
+}
+.nav {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 16px 31px -17px #d5690a91;
+    border: 5px solid #d5690a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli';
+    position: relative;
+    height: 400px;
+    width: 100px;
+    max-width: calc(100% - 10px);
+}
+
+.nav button.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: url(../img/close.png) no-repeat center;
+}
+
+.nav button.btn-close:focus {
+    outline: none;
+}
+
+.floating-btn {
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    background-color: #FF6A00;
+    border: 1px solid #FF6A00;
+    box-shadow: 0 16px 22px -17px #FF6A00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    position: fixed;
+    z-index: 999;
+    top: 50vh;
+    right: 0;
+    transform-origin: bottom right;
+    margin-right: 10px;
+    background: url(../img/menu.png) no-repeat center;
+}
+
+.floating-btn:hover {
+    background-color: #ffffff;
+    color: #d5690a;
+}
+
+.floating-btn:focus {
+    outline: none;
+}
+
+
+.schedule_table {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.style1 {
+    margin-left: 100px;
+    border: 2px solid #FF6A00;
+}
+
+.style2 {
+    margin-left: 100px;
+    border: 5px solid #e41203;
+}
+
+.style3 {
+    margin-left: 100px;
+    border: 10px solid #353433;
+}
+
+.style1 :first-child {
+    margin-left: 0;
+}
+
+.style2 :first-child {
+    margin-left: 0;
+}
+.style3 :first-child {
+    margin-left: 0;
+}
+
+main {
+    width: 100%;
+}
+
+.main_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+main h1 {
+    text-align: center;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+.about_info {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.about_avatar {
+    width: 300px;
+    height: 300px;
+    background: url(../img/girl_with_coke.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+}
+
+.telegram_title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.telegram {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

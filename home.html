@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- подключение header -->
+    <iframe src="blocks/header.html" class="iframe1"></iframe>
+    <!-- подключение menu -->
+    <iframe src="blocks/menu.html" class="iframe2"></iframe>
+
+    <!-- блок main -->
+    <main>
+        <div class="main_container">
+            <p class="home_info" >
+                Сайт создан, посредством деления на блоки (<em>header, footer, menu</em>). Каждая страница имеет одинаковые, неизменяемые блоки.
+                Реализовано это с помощью тегов <em>iframe</em>. </br>На странице <em>shedule</em> отображена информация о учебной неделе учащегося, в качестве
+                источника данных используется <em>XML-файл</em>. Уроки выводятся в таблицы, стиль таблиц можно изменять с помощью <em>RadioButton</em>. 
+            </p>
+        </div>
+    </main>
+
+    <!-- подключение footer -->
+    <iframe src="blocks/footer.html" class="iframe3"></iframe>
+
+    <!-- кнопка открывающая menu -->
+    <button class="floating-btn"></button>
+</body>
+</html>
